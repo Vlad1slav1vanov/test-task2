@@ -1,0 +1,38 @@
+.wrapper  {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.flex-component {
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  color: #fff;
+  margin-top: auto;
+}
+
+.flex-component__start, 
+.flex-component__end, 
+.flex-component__first, 
+.flex-component__second {
+  padding: 10px;
+  text-align: center;
+}
+
+.flex-component__start, .flex-component__end {
+  width: 100px;
+  background-color: grey;
+}
+
+.flex-component__first {
+  background-color: black;
+  width: 30%;
+}
+
+.flex-component__second {
+  background-color: blue;
+  width: 100%;
+}
